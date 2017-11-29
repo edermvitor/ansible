@@ -1,0 +1,26 @@
+---
+  - name: "instalar java"
+    yum: name=java state=latest
+  - name: "Cria link simbolico"
+    file:
+     src: /opt/{{ java_version }}
+     dest: /opt/java
+     state: link
+  - name: "Adiciona Usuario Admin JBoss"
+    shell: "/opt/liferay/jboss-eap-6.4/bin/add-user.sh liferay L1f3r4y!"
+  - name: "Copia script jboss"
+    copy:
+     src: "jboss"
+     dest: "/etc/init.d/jboss"
+     mode: 0755
+  - name: "Cria usuario de serviço"
+    user:
+     name: liferay
+  - name: "Configurando Java via alternatives"
+    alternatives:
+     name: java
+     path: /opt/java/bin/java
+  - name: "Altera usuario diretorio LIFERAY"
+    file: path=/opt/liferay owner=liferay group=liferay state=directory recurse=yes
+  - name: "Remove arquivos .zip"
+    shell: "cd /opt/; rm -rf *.zip"

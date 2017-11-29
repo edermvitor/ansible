@@ -1,0 +1,4 @@
+bumdle_liferay: liferay
+java_version: jdk1.7.0_151
+config_jboss: standalone.xml
+

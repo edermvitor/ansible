@@ -1,0 +1,17 @@
+---
+  - name: "Copia pacote do Java para o diretorio de instalação"
+    copy:
+     src: "{{ java_version }}.zip"
+     dest: "/opt/{{ java_version }}.zip"
+  - name: "Copia arquivos de Instalacao para /opt"
+    copy:
+     src: "{{ bumdle_liferay }}.zip"
+     dest: "/opt/{{ bumdle_liferay }}.zip"
+  - name: "Descompactar Bumdle Liferay"
+    shell: "cd /opt/; unzip {{ bumdle_liferay }}.zip"
+  - name: "Configura standalone"
+    copy:
+     src: "{{ config_jboss }}"
+     dest: "/opt/liferay/jboss-eap-6.4/standalone/configuration/{{ config_jboss }}"
+  - name: "Descompactar Java"
+    shell: "cd /opt/; unzip {{ java_version }}.zip"

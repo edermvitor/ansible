@@ -1,0 +1,10 @@
+---
+- name: "Verifica Firewall UP/DOWN"
+  service: name=firewalld state=stopped
+- name: "Desabilita Firewall"
+  service: name=firewalld enabled=no
+- name: "Desabilita SELinux"
+  selinux:
+    state: disabled
+- name: "instalar java"
+  yum: name=java state=latest

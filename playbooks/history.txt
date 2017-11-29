@@ -1,0 +1,500 @@
+  177  ./standalone.sh 
+  178  ./add-user.sh 
+  179  ./standalone.sh 
+  180  cd /opt/
+  181  ll
+  182  alias ll='ls -l'
+  183  ll
+  184  cd wildfly-8.2.1.Final/
+  185  ll
+  186  cd bin/
+  187  ll
+  188  ./standalone.sh 
+  189  ./standalone.sh 
+  190  vim /etc/hosts
+  191  vim /etc/hosts
+  192  vim /etc/hosts
+  193  xcode-select --install
+  194  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  195  ll
+  196  alias ll='ls -l'
+  197  ll
+  198  rm -rf docutils-0.12/
+  199  ll
+  200  ll /home/
+  201  id git
+  202  pwd
+  203  ll
+  204  alias ll='ls -l'
+  205  ll
+  206  rm -rf ~$OSs-Rotineiras_v1_terzella.xlsx
+  207  ll
+  208  mv ~$OSs-Rotineiras_v1_terzella.xlsx OSs-Rotineiras_v1_terzella.xlsx
+  209  ll
+  210  rm -rf ~\$minio-EderMouraVitor-16132955.docx 
+  211  ll
+  212  rm -rf ~\$OSs-Rotineiras_v1_terzella.xlsx 
+  213  ll
+  214  rm rf ~$ciana Carneiro Das Neves .docx
+  215  rm rf ~\$ciana\ Carneiro\ Das\ Neves
+  216  rm rf ~\$ciana\ Carneiro\ Das\ Neves\ .docx 
+  217  rm rf ~\$ciana\ Carneiro\ Das\ Neves\ .docx
+  218  ll
+  219  rm rf ~\$ciana\ Carneiro\ Das\ Neves-16061098.docx 
+  220  ll
+  221  rm -rf ~\$ermouravitor-ap-II.docx 
+  222  ll
+  223  ll
+  224  vim /etc/hosts
+  225  vim /etc/hosts
+  226  ll
+  227  vim /etc/hosts
+  228  cd /opt/
+  229  ll
+  230  alias ll='ls -l'
+  231  ll
+  232  cd wildfly-8.2.1.Final/
+  233  ll
+  234  cd bin/
+  235  ./standalone.sh 
+  236  ll /home/
+  237  alias ll='ls -l'
+  238  ll /home/
+  239  id guest
+  240  postgres start
+  241  cd /opt/wildfly-8.2.1.Final/bin/
+  242  ./standalone.sh 
+  243  ps -ef |grep posgres
+  244  ps -ef |grep post
+  245  kill -9 417
+  246  ps -ef |grep post
+  247  kill -9 501
+  248  /usr/local/opt/postgresql/bin/postgres status
+  249  kill -9 3619 3673 3678 3699 4205 4207 4208 4209 4210 4211 4213
+  250  /usr/local/opt/postgresql/bin/postgres status
+  251  ps -ef |grep post
+  252  kill -9 4518 4524 4525 4526 4527 4528 4550
+  253  ps -ef |grep post
+  254  ps -ef | grep postgres
+  255  killall postgresql
+  256  killall postgres
+  257  ps -ef | grep postgres
+  258  id eder
+  259  cd /opt/wildfly-8.2.1.Final/bin/
+  260  ./standalone.sh 
+  261  alias ll='ls -l'
+  262  ll
+  263  cd wildfly-8.2.1.Final/
+  264  ll
+  265  cd bin/
+  266  ll
+  267  ./standalone.sh 
+  268  bg
+  269  cd ../
+  270  ll
+  271  cd standalone/
+  272  ll
+  273  cd configuration/
+  274  ll
+  275  cat mgmt-users.properties
+  276  ll
+  277  cd ../
+  278  ll
+  279  cd ../
+  280  ll
+  281  cd bin/
+  282  ./add-user.sh 
+  283  cd ../standalone/configuration/
+  284  vim standalone.xml 
+  285  fg
+  286  cd /opt/wildfly-8.2.1.Final/bin/
+  287  ./standalone.sh 
+  288  bg
+  289  ./add-user.sh 
+  290  fg
+  291  bg
+  292  cd ../standalone/deployments/
+  293  ll
+  294  ls -l
+  295  cd ../
+  296  cd ../
+  297  ll
+  298  alias ll='ls -l'
+  299  ll
+  300  cd bin/
+  301  ll
+  302  bg
+  303  fg
+  304  l
+  305  ll
+  306  cd ../../
+  307  ll
+  308  tar -cvf wildfly-8.2.1.Final.tar wildfly-8.2.1.Final/
+  309  ll
+  310  mv wildfly-8.2.1.Final.tar /Users/eder/Desktop/
+  311  ll
+  312  ll
+  313  alias ll='ls -l'
+  314  cd /opt/teste/windup-distribution-3.0.0.Final/
+  315  ll
+  316  cd bin/
+  317  ./windup --input samples/jee-example-app-1.0.0.ear --target eap
+  318  ./windup --input samples/jee-example-app-1.0.0.ear --target eap:6
+  319  ulimit
+  320  ll
+  321  ll ../
+  322  ll
+  323  ./windup 
+  324  ./windup --list
+  325  ./windup --input samples/jee-example-app-1.0.0.ear --target eap
+  326  cd ../
+  327  ll
+  328  cd ../
+  329  ll
+  330  chown -R root. *
+  331  chown -R root:root *
+  332  chown -R root:wheel *
+  333  ll
+  334  ll
+  335  cd windup-distribution-3.0.0.Final/
+  336  l
+  337  ll
+  338  cd bin/
+  339  ./windup --input samples/jee-example-app-1.0.0.ear --target eap
+  340  ll
+  341  ll /opt/teste/appjboss/
+  342  ll /opt/teste/windup-distribution-3.0.0.Final/samples/
+  343  ./windup --list
+  344  ./windup
+  345  ./windup --help
+  346  ./windup --listTags
+  347  ll
+  348  cd ../
+  349  ll
+  350  ll addons/
+  351  wd
+  352  pwd
+  353  ll
+  354  alias ll='ls -l'
+  355  ll
+  356  cp Windump/ /opt/
+  357  cp -r Windump/ /opt/
+  358  cp -r windup-distribution-3.0.0.Final/ /opt/
+  359  ll
+  360  cd /opt/
+  361  ll
+  362  ll
+  363  cd -
+  364  ll
+  365  cp -r Windump/ /opt/
+  366  ll /opt/
+  367  ll
+  368  mv Windump/ appjboss
+  369  ll
+  370  cp -r appjboss/ /opt/
+  371  cd /opt/
+  372  ll
+  373  cd -
+  374  ll
+  375  mv appjboss/ /opt/
+  376  ll
+  377  ll /opt/
+  378  cd /opt/
+  379  ll
+  380  ll
+  381  mkdir teste
+  382  ll
+  383  vi windup-version.txt 
+  384  mv appjboss/ teste/
+  385  ll
+  386  rm -rf .DS_Store ECLIPSE_LICENSE.txt README.txt addons/ bash-completion/ bin/ cache/ ignore/ lib/ logging.properties migranteweb-ear.ear rules/ samples/ sas-ear.ear windup-version.txt
+  387  ll
+  388  cp -r /Users/eder/Desktop/windup-distribution-3.0.0.Final .
+  389  ll
+  390  mv windup-distribution-3.0.0.Final/ teste/
+  391  ll
+  392  cd teste/
+  393  ll
+  394  cd windup-distribution-3.0.0.Final/bin/
+  395  l
+  396  ll
+  397  ./windup --source eap:4 --target eap:6 --input /opt/teste/appjboss/migranteweb-ear.ear 
+  398  ll
+  399  ll ../../appjboss/
+  400  ./windup --input /opt/teste/appjboss/migranteweb-ear.ear target eap --overwrite --batchMode --packages com
+  401  ll
+  402  cd ../
+  403  ll
+  404  ll
+  405  ll samples/
+  406  ./windup --input samples/jee-example-app-1.0.0.ear --target eap
+  407  pwd
+  408  cd bin/
+  409  ./windup --input samples/jee-example-app-1.0.0.ear --target eap
+  410  ll
+  411  su -
+  412  cd /opt/
+  413  cd wildfly-8.2.1.Final/
+  414  cd bin/
+  415  ll
+  416  alias ll='ls -l'
+  417  ll
+  418  ./standalone.sh 
+  419  cd /opt/
+  420  ll
+  421  alias ll='ls -l'
+  422  cd ~
+  423  vi .bash_profile 
+  424  cd /opt/
+  425  ll
+  426  ll teste/
+  427  ll
+  428  rm -rf teste/
+  429  ll
+  430  cp /Users/eder/Desktop/JBoss/jboss-eap-7.0.0-installer.jar .
+  431  cp /Users/eder/Desktop/JBoss/jboss-eap-7.0.5-patch.zip .
+  432  ll
+  433  ll
+  434  ll
+  435  ll
+  436  java -jar jboss-eap-7.0.0-installer.jar
+  437  java -jar jboss-eap-7.0.0-installer.jar --install
+  438  du -hs *
+  439  cp /Users/eder/Desktop/JBoss/jboss-eap-7.0.0-installer.jar .
+  440  ll
+  441  java -jar jboss-eap-7.0.0-installer.jar
+  442  ll
+  443  cd EAP-7/
+  444  ll
+  445  cd installation/
+  446  ll
+  447  cd ../
+  448  ll
+  449  ll bin/
+  450  cd bin/
+  451  vim add-user.properties 
+  452  ll
+  453  ./standalone.sh 
+  454  ll
+  455  ./domain.sh 
+  456  cd /opt/
+  457  ll
+  458  alias ll='ls -l'
+  459  ll
+  460  cd EAP-7/domain/configuration/
+  461  ll
+  462  vim domain.xml 
+  463  vi /etc/hosts
+  464  vi /etc/hosts
+  465  cd  /opt/wildfly-8.2.1.Final/
+  466  ll
+  467  cd bin/
+  468  alias ll='ls -l'
+  469  ll
+  470  cd init.d/
+  471  pwd
+  472  ll
+  473  scp wildfly-init-redhat.sh root@192.168.0.109:
+  474  ll
+  475  alias ll='ls -l'
+  476  ll
+  477  minishift start
+  478  minishift start --vm-driver=virtualbox
+  479  cd /opt/
+  480  ll
+  481  alias ll='ls -l'
+  482  ll
+  483  cd wildfly-8.2.1.Final/
+  484  ll
+  485  cd bin/
+  486  ll
+  487  ./standalone.sh 
+  488  cd /opt/wildfly-8.2.1.Final/bin/
+  489  ./standalone.sh 
+  490  cd /opt/wildfly-8.2.1.Final/bin/
+  491  ./standalone.sh 
+  492  cd /opt/
+  493  ll
+  494  ls
+  495  cd wildfly-8.2.1.Final/
+  496  cd standalone/
+  497  cd ../bin/
+  498  ./standalone.sh 
+  499  cd /opt/wildfly-8.2.1.Final/bin/
+  500  ./standalone.sh 
+  501  mkdir ansible
+  502  ll
+  503  alias ll='ls -l'
+  504  ll
+  505  cd ansible/
+  506  touch hosts
+  507  vi hosts 
+  508  pwd
+  509  mkdir playbooks
+  510  ll
+  511  cd playbooks/
+  512  ll
+  513  ansible localhost -m ping
+  514  vi restart-agent.yml
+  515  ansible-playbook restart-agent.yml 
+  516  vi ../hosts 
+  517  ansible-playbook restart-agent.yml mte
+  518  ansible-playbook restart-agent.yml -l mte
+  519  ansible-playbook restart-agent.yml -l mte
+  520  ansible all -m ping
+  521  ll ../
+  522  pwd
+  523  cd ../
+  524  ll
+  525  pwd
+  526  cd ../
+  527  ll
+  528  mv ansible/ /etc
+  529  ll
+  530  cd /etc/ansible/
+  531  ll
+  532  cd playbooks/
+  533  ansible-playbook restart-agent.yml -l mte
+  534  pwd
+  535  cd /etc/ansible/
+  536  ll
+  537  vim hosts 
+  538  cd playbooks/
+  539  ansible-playbook restart-agent.yml 
+  540  vim ../hosts 
+  541  vim ../hosts 
+  542  vi ../hosts 
+  543  ansible-playbook restart-agent.yml 
+  544  vi ../hosts 
+  545  ansible-playbook restart-agent.yml 
+  546  vi ../hosts 
+  547  ansible-playbook restart-agent.yml 
+  548  vi ../hosts 
+  549  ansible-playbook restart-agent.yml --ask-pass
+  550  ll
+  551  vim restart-agent.yml 
+  552  ansible-playbook restart-agent.yml --ask-pass --ask-became-pass
+  553  #ansible-playbook restart-agent.yml --ask-pass --ask-become-pass
+  554  vim restart-agent.yml 
+  555  ansible-playbook restart-agent.yml --ask-pass --ask-become-pass
+  556  vim restart-agent.yml 
+  557  vi restart-agent.yml 
+  558  ansible-playbook restart-agent.yml --ask-pass --ask-become-pass
+  559  vi ../hosts 
+  560  vi restart-agent.yml 
+  561  ansible-playbook restart-agent.yml --ask-pass --ask-become-pass -l SD0PSIC001.admin
+  562  vi ../hosts 
+  563  ansible-playbook restart-agent.yml --ask-pass --ask-become-pass -l SD0PSIC001.admin
+  564  vi restart-agent.yml 
+  565  ansible-playbook restart-agent.yml --ask-pass --ask-become-pass -l SD0PSIC001.admin
+  566  vi ../hosts 
+  567  ansible-playbook restart-agent.yml --ask-pass --ask-become-pass
+  568  vi ../hosts 
+  569  vi ../hosts 
+  570  vi restart-agent.yml 
+  571  ll
+  572  cp restart-agent.yml restart-agent-novo.yml
+  573  ll
+  574  vi restart-agent-novo.yml 
+  575  vi restart-agent-novo.yml 
+  576  pwd
+  577  vi ../ansible.cfg
+  578  ansible-playbook restart-agent-novo.yml --ask-pass --ask-become-pass
+  579  vi ../hosts 
+  580  vi restart-agent-novo.yml 
+  581  ansible-playbook restart-agent-novo.yml --ask-pass --ask-become-pass -l sd0paap015.mte.br
+  582  ansible-playbook restart-agent-novo.yml --ask-pass --ask-become-pass
+  583  ll
+  584  cat restart-agent-novo.retry
+  585  vi ../hosts 
+  586  ll
+  587  vi restart-agent.yml 
+  588  cp restart-agent.yml create-group.yml
+  589  ll
+  590  vi create-group.yml 
+  591  cat restart-agent.yml
+  592  vi create-group.yml 
+  593  cat restart-agent.yml
+  594  vi create-group.yml 
+  595  ansible-playbook create-group.yml --ask-pass --ask-become-pass
+  596  vi ../hosts 
+  597  ping rhclitst01.mte.br
+  598  ping rhclitst01.mte.br
+  599  vi ../hosts 
+  600  vi create-group.yml 
+  601  vi create-group.yml 
+  602  ansible-playbook create-group.yml --ask-pass --ask-become-pass
+  603  ll
+  604  vi create-group.yml 
+  605  ansible-playbook create-group.yml --ask-pass --ask-become-pass
+  606  vi ../ansible.cfg 
+  607  ansible-playbook create-group.yml --ask-pass --ask-become-pass
+  608  vi ../hosts 
+  609  ansible-playbook --help
+  610  ansible-playbook create-group.yml --ask-pass --ask-become-pass -V
+  611  ansible-playbook create-group.yml --ask-pass --ask-become-pass -v
+  612  vi ../ansible.cfg 
+  613  ansible-playbook create-group.yml --ask-pass --ask-become-pass -v
+  614  vi create-group.yml 
+  615  ansible-playbook create-group.yml --ask-pass --ask-become-pass -v
+  616  vi create-group.yml 
+  617  ansible-playbook --help
+  618  ansible-playbook create-group.yml --ask-pass --ask-become-pass -v --syntax-check
+  619  vi create-group.yml 
+  620  ansible-playbook create-group.yml --ask-pass --ask-become-pass -v --syntax-check
+  621  vi create-group.yml 
+  622  ansible-playbook create-group.yml --ask-pass --ask-become-pass -v --syntax-check
+  623  ansible -m ping 10.252.106.11
+  624  vi ../hosts 
+  625  ssh-copy-id 10.252.106.11
+  626  ssh-keygen 
+  627  ssh-copy-id 10.252.106.11
+  628  ssh-copy-id eder.vitor@10.252.106.11
+  629  ansible -m ping 10.252.106.11
+  630  ansible-playbook create-group.yml --ask-pass --ask-become-pass -v
+  631  vi create-group.yml 
+  632  ansible-playbook create-group.yml --ask-pass --ask-become-pass -v
+  633  ansible-playbook create-group.yml --ask-pass --ask-become-pass -v -K
+  634  ll
+  635  cat create-group.retry
+  636  ansible-playbook --help
+  637  ansible-playbook create-group.yml --ask-pass --ask-become-pass -v --list-tasks
+  638  vi ../hosts 
+  639  vim create-group.yml 
+  640  vi create-group.yml 
+  641  ansible-playbook create-group.yml --ask-pass --ask-become-pass -v
+  642  vi create-group.yml 
+  643  ansible-playbook create-group.yml --ask-pass --ask-become-pass -v
+  644  ansible-playbook create-group.yml --ask-pass --ask-become-pass -v
+  645  ll
+  646  vi create-group.yml 
+  647  vi create-group.yml 
+  648  ansible-playbook create-group.yml --ask-pass --ask-become-pass -v
+  649  vi create-group.yml 
+  650  ansible-playbook create-group.yml --ask-pass --ask-become-pass -v
+  651  vi create-group.yml 
+  652  ansible-playbook create-group.yml --ask-pass --ask-become-pass -v
+  653  vi create-group.yml 
+  654  vi create-group.yml 
+  655  ping escorte.mte.br
+  656  ping escort.mte.br
+  657  ping escort.mte.br
+  658  ssh producao@escort@mte.br
+  659  ssh producao@escort.mte.br
+  660  ssh root@escort.mte.br
+  661  ssh eder.vitor@escort.mte.br
+  662  ssh root@escort.mte.br
+  663  ssh root@escort.mte.br
+  664  ssh root@escort.mte.br
+  665  pwd
+  666  ll
+  667  pip install --upgrade ansible
+  668  ansible --version
+  669  ssh usr_desenvolvimento@sd0tajb002
+  670  ssh usr_desenvolvimento@sd0tajb002.mte.br
+  671  history 
+  672  ansible all -m ping
+  673  ansible sd0zprx003 -m ping
+  674  ansible sd0zprx003.mte.br -m ping
+  675  history 
+  676  history > history.txt

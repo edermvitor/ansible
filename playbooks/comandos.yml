@@ -1,0 +1,9 @@
+- hosts: mte
+  connection: paramiko
+  become: true
+  become_user: root
+  become_method: sudo
+  tasks:
+    - name: return motd to registered var
+      command: cat /etc/motd
+      register: mymotd

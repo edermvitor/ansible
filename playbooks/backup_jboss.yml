@@ -1,0 +1,18 @@
+- hosts: mte
+  remote_user: eder.vitor
+  become: yes
+  tasks:
+    - name: "Verifica se pasta destino  do backup existe..."
+      stat:
+       path: /opt/backups/
+      register: p1
+
+    - name: "Compactar /data/jboss"
+      shell: "cd /data; tar -cJf /opt/backups/{{ ansible_hostname }}-{{ ansible_date_time.date }}.tar.xz /data/jboss*"
+      when: p1.stat.isdir is defined and p1.stat.isdir
+
+    - name: "Verifica se pasta destino existe..."
+      stat:
+       path: /mnt/opala
+      register: p
+

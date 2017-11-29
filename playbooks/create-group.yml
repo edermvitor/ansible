@@ -1,0 +1,17 @@
+- hosts: 10.211.55.3
+  connection: paramiko
+  become: true
+  become_user: root
+  become_method: sudo
+  tasks:
+    - name: Criar Grupo test-cloud
+      group:
+        name: test-cloud
+        state: present
+
+    - name: Criar usuario
+      user:
+        name: evitor
+        password: "$6$7ptGjJek$jomgKbm4x5G5RLGdfr0VeLEScmzlfqg0RG/wJwWNH5VtFnRtTN46TPF/hxF1RC.PPbmu7G2vJBbtSJJ0fA6dk0"
+        comment: "Eder Moura Vitor"
+        groups: wheel,test-cloud

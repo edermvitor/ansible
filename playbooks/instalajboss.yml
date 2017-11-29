@@ -1,0 +1,26 @@
+- hosts: mte
+  become: true
+  become_user: root
+  tasks:
+  - name: "Copia arquivos de Instalacao para /opt"
+    copy:
+     src: "/etc/ansible/arquivos/jboss/jboss-eap-6.4.zip"
+     dest: "/opt/jboss-eap-6.4.zip"
+  - name: "Descompactar Arquivo"
+    shell: "cd /opt/; unzip jboss-eap-6.4.zip"
+  - name: "Configura standalone"
+    copy:
+     src: "/etc/ansible/arquivos/jboss/standalone.xml"
+     dest: "/opt/jboss-eap-6.4/standalone/configuration/standalone.xml"
+  - name: "Adiciona Usuario Admin"
+    shell: "/opt/jboss-eap-6.4/bin/add-user.sh jbossadmin SenhaAdmin1!"
+  - name: "Copia jboss.sh"
+    copy: 
+     src: "/etc/ansible/arquivos/jboss/jboss.sh"
+     dest: "/etc/init.d/jboss.sh"
+     mode: 0755
+  - name: "Cria usuario de serviço"
+    user:
+     name: jboss
+  - name: "Altera usuario diretorio jboss"
+    command: chown -R jboss. /opt/jboss-eap-6.4
